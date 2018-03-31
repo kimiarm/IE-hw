@@ -2,60 +2,136 @@
 <html>
 <head>
 <style>
+.headergird
+{
+    grid-area:header;
+}
+.footergrid{
+  grid-area:footer;
+}
+.buttuns{
+  grid-area:b;
+}
+.container{
+      display: grid;
+      grid-template-columns:[line1-col] 10% [line2-col] 10% [line3-col] 10% [line4-col] 10%  [line5-col] 10% [line6-col] 10% [line7-col] 10% [line8-col] 10% [line9-col] 10% [line10-col] 10% [end-col] ;
+      grid-template-rows:[line1-row] 5% [line2-row] 10% [line3-row] 5% [line4-row] 5%  [line5-row] 5% [line6-row] 5% [line7-row] 5% [line8-row] 5% [line9-row] 5% [line10-row] 5% [line11-row] 5% [line12-row] 10% [line13-row] 5% [line14-row] 5%  [line15-row] 5% [line16-row] 5% [line17-row] 5% [line18-row] 5% [line19-row] 5% [line20-row] 5 [end-row] ;
+    
+
+
+      grid-template-areas: 
+    "header header header header header header header header header header"
+    ". . . . . . . . b . "
+    ". . . . . . . . . . "
+    ". . . . . . . . . . "
+   ". . . . . . . . . . "
+   ". . . . . . . . . . "
+    ". . . . . . . . . . "
+    ". . . . . . . . . . "
+    ". . . . . . . . . . "
+        ". . . . . . . . . . "
+    ". . . . . . . . . . "
+    ". . . . . . . . . . "
+   ". . . . . . . . . . "
+   ". . . . . . . . . . "
+    ". . . . . . . . . . "
+    ". . . . . . . . . . "
+    ". . . . . . . . . . "
+      ". . . . . . . . . . "
+    ". . . . . . . . . . "
+    "footer footer footer footer footer footer footer footer footer footer";
+
+    }
+
+
+
 .button {
- position: absolute;
-    top: 8px;
-    right: 16px;
-  width: 100px;
-  height: 20px;
+
+    
+  width: 75px;
+  height: 25px;
   display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
+  font-size: 10px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #fff;
-  background-color: #4CAF50;
+font-family: 'Shabnam', sans-serif;
   border: none;
   border-radius: 80px;
  
 }
+ .register{
+    position: absolute;
+      right: 75px;
+      top: 40px ;
+      color: #000000;
+  background-color: #FFFFFF;
+   
+}
+ .login{
+    position: absolute;
+      right: 150px;
+      top: 40px ;
+      color: #ffffff;
+  background-color: #666666;
+   
+}
+.n {
+    background-color:#33691E;
+    height: 300px ;
 
-.button:hover {background-color: #3e8e41}
+    }
+.register:hover{
+  color:  #3b55ef  ; 
+  border-color:  #3b55ef ;
+  border:1px solid  #3b55ef ;
 
-.button:active {
-  background-color: #3e8e41;
- 
+  }
+.login:hover
+   {
+ background-color: #3b55ef ; 
+  color: #ffffff ;
+
+    }
+.register:active
+{
+ color:  #3b55ef  ; 
+  border: 1px solid  #3b55ef ;
+}
+.login:active
+{
+   background-color: #3b55ef ; 
+  color: #ffffff ;
+}
+.brand
+{
+  font-size: 24px;
+  font-family: 'Shabnam', sans-serif;
 }
 @media (max-width: 1400px) { 
-
+  
     } /* for desktops */
 
 @media (max-width: 1200px) { 
-  .n {
-    background-color:#FF5722 ;
-
-    }
+  
     } /* for desktops */
 
 @media (max-width: 991px) { .n {
-    background-color:#FF5722 ;
-
+    
     } } /* for laptops */
 
 @media (min-width: 768px) and (max-width: 990px) { .n {
-    background-color:#FF5722;
-
+   
     } } /* for large tablets */
 
 @media (max-width: 768px) { .n {
-    background-color:#FF5722;
+   
 
     } } /* for smaller tablets */
 
 @media (max-width: 500px) { .n {
-    background-color:#FF5722 ;
+  
 
     } } /* for cellphones */
 
@@ -70,20 +146,26 @@
 
   <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
   
+<link href="https://cdn.rawgit.com/rastikerdar/shabnam-font/v3.0.0/dist/font-face.css" rel="stylesheet" type="text/css" />
 
-
-  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+ 
 
 </head>
-<body>
-<header>
+<body class="container">
+<header class="headergird">
 
-<div class="n" style="height: 100px">ffffffffffffff</div>
+<div class="n" >
+  
+<button class="button register b">عضویت</button>
+<button class="button login b">ورود</button>
+<span class="brand">Clothster</span>
+
+</div>
 
 </header>
 <!-- The content of your page would go here. -->
 
-    <footer class="footer-distributed">
+    <footer class="footer-distributed footergrid">
 
       <div class="footer-left">
 
