@@ -8,13 +8,13 @@
 	display: flex;
 	justify-content: center; 
   color: #fff;
-  background-color: #5995DA;  /* Blue */
+  background-color: #ffffff ;
   padding: 20px 0;
 }
 
 .menu {
  border: 1px solid #fff;
-  width: 900px;
+  width: 1900px;
   display: flex;
   justify-content: space-around;
   
@@ -27,9 +27,6 @@
   justify-content: flex-end;
 }
 
-.login {
-  margin-left: 20px;
-}
 .header-container {
   color: #5995DA;
   background-color: #D6E9FE;
@@ -77,6 +74,11 @@
 .signup {
   margin-left: auto;
 }
+.search{
+       border-radius: 80px;
+        background: white url(search.png) left no-repeat;
+    padding-left: 17px;
+}
 .footer-one , .footer-nine , .footer-four 
 {
 	flex-direction: column;
@@ -113,4 +115,78 @@
 	justify-content : center ;
 	background-color: #ddd5DA;
  
+}
+.button {
+
+    
+  width: 75px;
+  height: 25px;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+font-family: 'Shabnam', sans-serif;
+  border: none;
+  border-radius: 80px;
+ 
+}
+ .register{
+   
+      color: #000000;
+  background-color: #FFFFFF;
+  border : 1px solid #666666
+   
+}
+ .login{
+  
+      color: #ffffff;
+  background-color: #666666;
+   
+}
+.search{
+  
+       border-radius: 80px;
+        background: white url(search.png) left no-repeat;
+    padding-left: 17px;
+}
+.n {
+    background-color:#33691E;
+    height: 300px ;
+
+    }
+.register:hover{
+  color:  #3b55ef  ; 
+  border-color:  #3b55ef ;
+  border:1px solid  #3b55ef ;
+
+  }
+.login:hover
+   {
+ background-color: #3b55ef ; 
+  color: #ffffff ;
+
+    }
+.search:hover 
+{
+	 background: white url(search-blue.png) left no-repeat;
+	border: 1px solid  #3b55ef ;
+}
+
+
+.register:active
+{
+ color:  #3b55ef  ; 
+  border: 1px solid  #3b55ef ;
+}
+.login:active
+{
+   background-color: #3b55ef ; 
+  color: #ffffff ;
+}
+.brand
+{
+  font-size: 24px;
+  font-family: 'Shabnam', sans-serif;
 }
