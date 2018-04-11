@@ -1,0 +1,50 @@
+<html>
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+body {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20rem auto;
+  grid-template-rows: 5rem auto 10rem;
+  grid-template-areas: 
+    "header  header"
+    "sidebar main"
+    "footer  footer";
+}
+header {
+  grid-area: header;
+}
+section {
+  grid-area: main;
+}
+aside {
+  grid-area: sidebar;
+  background-color: #f8f8f8;
+}
+footer {
+  grid-area: footer;
+  align-self: stretch;
+}
+@media (max-width: 600px) {
+  body {
+    grid-template-columns: auto;
+    grid-template-rows: 5rem auto 10rem;
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer";
+  }
+  aside {
+    display: none;
+  }
+}
+</style>
+<header>Header</header>
+<section>Content</section>
+<aside>Menu</aside>
+<footer>Footer</footer>
+</html>
