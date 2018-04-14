@@ -113,11 +113,22 @@
 }
 
 .red-back {
+    border-radius: 5px;
     background-color: #BA6768;
-    border: 1px solid #000000;
+    border: 1px solid #666666;
     color: white;
 }
+.holiday-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 15px;
 
+
+}
+.holiday{
+    width: 90%;
+}
 .address-grid-map {
     background-color: darkred;
     flex-direction: row;
@@ -424,7 +435,6 @@
 }
 
 .call-us-icon {
-    flex:3;
     display: flex;
     justify-content: flex-end;
 }
