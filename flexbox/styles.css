@@ -114,6 +114,7 @@
 
 .red-back {
     background-color: #BA6768;
+    border: 1px solid #000000;
     color: white;
 }
 
@@ -417,18 +418,20 @@
 
 .call-us-icon-container {
     display: flex;
-    background-color: teal;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 
 .call-us-icon {
-
-    flex: 1;
+    flex:3;
+    display: flex;
+    justify-content: flex-end;
 }
 
+
 .call-us-icon-two {
-    flex: 3;
+    flex:5;
 }
 
 .map-container {
@@ -437,7 +440,6 @@
 
 .address-container {
     flex: 6;
-    background-color: green;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -449,8 +451,8 @@
 }
 
 .form-container {
-    background-color: #666666;
 
+    box-shadow: 2px 2px 10px 2px  #ddd5DA;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -493,7 +495,7 @@
     display: inline-flex;
     justify-content: flex-end;
     flex-direction: row;
-    background-color: black;
+
     width: 96%;
 }
 
@@ -539,8 +541,9 @@
     display: flex;
     align-items: center;
 }
-.color-blue{
+label{
     color: #3b55ef;
+    font-size: 12px;
 }
 select, option {
     color: #666666 !important;
