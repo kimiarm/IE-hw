@@ -52,9 +52,9 @@
     display: flex;
     justify-content: space-around;
 
-
 }
-.big-button{
+
+.big-button {
     width: 16%;
     height: 80px;
     display: inline-block;
@@ -68,6 +68,7 @@
     border-radius: 5%;
     background-color: aliceblue;
 }
+
 .links {
     border: 1px solid #fff; /* For debugging */
     display: flex;
@@ -100,6 +101,7 @@
     justify-content: flex-end;
     flex-wrap: wrap;
 }
+
 .address-grid-container {
     display: flex;
     justify-content: center;
@@ -109,20 +111,23 @@
     justify-items: center;
     justify-self: center;
 }
-.red-back{
+
+.red-back {
     background-color: #BA6768;
     color: white;
 }
+
 .address-grid-map {
     background-color: darkred;
     flex-direction: row;
     align-items: center;
-        display: flex;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex: 2;
 }
-.detail-grid-map{
+
+.detail-grid-map {
     background-color: #987654;
     flex-direction: row;
     align-items: center;
@@ -132,8 +137,9 @@
     flex-wrap: wrap;
     flex: 1;
 }
-.img-circle{
-    border-redius : 50% ;
+
+.img-circle {
+    border-redius: 50%;
 }
 
 .photo-grid-item {
@@ -281,41 +287,126 @@
     font-family: 'Shabnam', sans-serif;
 }
 
-
 .body-grid-container {
     background-color: greenyellow;
     display: flex;
     justify-content: center;
     padding: 20px 0;
+    flex-wrap: wrap;
+    font-family: 'Shabnam', sans-serif;
 }
 
 .body-grid {
-
- 
+    background-color: azure;
     width: 62%;
     display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .call-us-container {
-    background-color: #3b55ef;
+
     display: flex;
-    justify-content: flex-end;
-    padding: 20px 0;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.call-us {
+.imd-redius {
+    border-radius: 80px;
+}
 
-    background-color: deeppink;
-    width: 62%;
+.call-us-icon-container {
+    display: flex;
+    background-color: teal;
+    justify-content: space-around;
+
+}
+
+.call-us-icon {
+
+    flex: 1;
+}
+
+.call-us-icon-two {
+    flex: 3;
+}
+
+.map-container {
+    display: flex;
+}
+
+.address-container {
+    flex: 6;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.map {
+    flex: 5;
+}
+
+.form-container {
+    background-color: #666666;
+    box-shadow: #666666;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.call {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.three-text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.te {
+    height: 25px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.sent-container {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: black;
+    width: 96%;
+}
+
+.your-message {
+    width: 525px;
+}
+
+.message-box {
     display: flex;
     justify-content: center;
+    width: 100%;
+}
 
-    align-items: center;
+.message-box-length {
+    width: 92%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.sent-button-size {
+    width: 22%;
+}
+.input-container{
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: flex-start;
 }
