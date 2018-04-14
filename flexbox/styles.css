@@ -298,6 +298,7 @@
 }
 
 .body-grid-about-container {
+    color:#999999;
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -333,7 +334,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white url("brands.png") left no-repeat;
+    background: white url("brands.png") left ;
     border: 1px solid #666666;
     flex: 4;
 }
@@ -358,17 +359,19 @@
 
 .border-white-back {
     background-color: white;
-    border: 1px solid #000000;
+    border: 1px solid #999999;
 }
 
 .do-register-button {
     color: white;
     background-color: #000000;
     width: 30%;
+    height: 30px;
 }
 
 .down-left-container {
-    border: 1px solid #000000;
+    border: 1px solid #3b55ef;
+    box-shadow: 2px 2px 10px 2px  #666666;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -447,7 +450,7 @@
 
 .form-container {
     background-color: #666666;
-    box-shadow: #666666;
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
