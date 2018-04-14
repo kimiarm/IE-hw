@@ -288,7 +288,7 @@
 }
 
 .body-grid-container {
-    background-color: greenyellow;
+
     display: flex;
     justify-content: center;
     padding: 20px 0;
@@ -296,7 +296,6 @@
     font-family: 'Shabnam', sans-serif;
 }
 .body-grid-about-container {
-    background-color: greenyellow;
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -323,12 +322,27 @@
 .up-right-container {
     display: flex;
     flex-direction: row;
-    border: 1px solid #3b55ef;
+    border: 1px solid #666666;
     flex: 2;
 }
 .down-right-container{
-    border: 1px solid #000000;
-    flex: 2    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white url("brands.png") left no-repeat;
+    border: 1px solid #666666;
+    flex: 4    ;
+}
+.all-brand{
+    color: white;
+    background-color:#3b55ef ;
+    width: 40%;
+    height: 45px;
+}
+.do-register-button{
+    color: white;
+    background-color:#000000 ;
+    width: 30%;
 }
 .down-left-container{
     border: 1px solid #000000;
@@ -336,12 +350,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #3b55ef;
     flex: 2;
+}
+.white-color{
+    color: white;
 }
 .up-left-container{
     display: flex;
     flex-direction: column;
-    border: 1px solid #000000;
+    border: 1px solid #666666;
     flex: 1;
     align-items: center;
     justify-content: flex-start;
@@ -428,7 +446,16 @@
     width: 100%;
     border-radius: 25px;
 }
-
+.te {
+    height: 25px;
+    width: 100%;
+    border-radius: 25px;
+}
+.do-register {
+    height: 40px;
+    width: 80%;
+    border-radius: 25px;
+}
 .sent-container {
     display: inline-flex;
     justify-content: flex-end;
