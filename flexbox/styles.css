@@ -10,16 +10,25 @@
     color: #fff;
     background-color: #ffffff;
     padding: 20px 0;
+
 }
 
 .menu {
     border: 1px solid #fff;
     width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
+.up-bottuns{
+    display: flex;
+    justify-content: flex-end;
+}
+.upper-brand{
 
+    font-size: 30px;
+    color: #666666;
+}
 .tab-bar-container {
     display: flex;
     justify-content: center;
@@ -34,7 +43,7 @@
     width: 50%;
     display: flex;
     justify-content: space-around;
-
+    font-size: 20px;
 }
 
 .big-buttons-container {
@@ -332,6 +341,21 @@ up{
 }
 a{
     color: #555555;
+    text-decoration: none;
+}
+a:hover{
+    color: #3b55ef;
+    font-weight: bold;
+}
+a:active{
+    color: #3b55ef;
+    font-weight: bold;
+}
+.navbar:hover{
+    text-decoration: underline;
+}
+.navbar:active{
+    text-decoration: underline;
 }
 .button {
 
