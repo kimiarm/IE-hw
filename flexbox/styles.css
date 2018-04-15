@@ -29,7 +29,7 @@
 }
 
 .tab-bar {
-    color: deeppink;
+    color: #666666;
     border: 1px solid #fff;
     width: 50%;
     display: flex;
@@ -38,15 +38,16 @@
 }
 
 .big-buttons-container {
-    background-color: greenyellow;
+
     display: flex;
     justify-content: center;
     padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
 }
 
 .big-buttons {
 
-    background-color: deeppink;
 
     width: 62%;
     display: flex;
@@ -57,18 +58,40 @@
 .big-button {
     width: 16%;
     height: 80px;
-    display: inline-block;
-    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 12px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     font-family: 'Shabnam', sans-serif;
-    border: none;
-    border-radius: 5%;
-    background-color: aliceblue;
+    border: 1px solid #999999;
+    box-shadow: 2px 2px 5px 2px  #999999;
+    border-radius: 3px;
+
+}
+.angle-icon{
+    background: white url("angle.png") center no-repeat;
+}
+.about-us-icon{
+    background: white url("dialog.png") center no-repeat;
+}
+.call-icon{
+    background: white url("mail-bottun.png") center no-repeat;
+}
+.private-icon{
+    background: white url("lock.png") center no-repeat;
 }
 
+.question-icon{
+    background: white url("question.png") center no-repeat;
+}
+.user-icon{
+    background: white url("user.png") center no-repeat;
+}
 .links {
     border: 1px solid #fff; /* For debugging */
     display: flex;
