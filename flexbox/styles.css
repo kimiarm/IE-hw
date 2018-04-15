@@ -185,12 +185,13 @@
 
 .footer {
     display: flex;
+    background-color: #eeeeee
 
 }
 
 .footer-item {
     display: flex;
-    background-color: #D6E9FE;
+
     height: 200px;
     flex: 1;
 }
@@ -228,7 +229,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #5995DA;
     flex: 7;
 
 }
@@ -239,7 +239,6 @@
     flex: 1;
 }
 .footer-five {
-    background-color: #7775DA;
     flex: 2;
 }
 .footer-seven{
@@ -250,7 +249,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #987654;
     flex: 2;
 }
 
@@ -267,7 +265,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ddd5DA;
+
 
 }
 up{
@@ -539,6 +537,7 @@ a{
     height: 25px;
     width: 100%;
     border-radius: 25px;
+    background-color: #f0f2f8;
 }
 
 .te {
@@ -566,20 +565,24 @@ a{
     width: 525px;
 }
 
-.message-box {
+.message-box-container {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.message-box-length {
+.message-box {
     width: 92%;
     height: 100px;
     border-radius: 10px;
+background-color: #f0f2f8;
 }
 
-.sent-button-size {
+.sent-button {
     width: 22%;
+    background-color: white;
+    color: #3b55ef;
+    border: 1px solid #3b55ef;
 }
 
 .input-container {
