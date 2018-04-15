@@ -81,6 +81,9 @@
 .angle-icon{
     background: white url("angle.png") center no-repeat;
 }
+.angle-blue-icon{
+    background: white url("angle-blue.png") center no-repeat;
+}
 .about-us-icon{
     background: white url("dialog.png") center no-repeat;
 }
@@ -90,6 +93,9 @@
 }
 .call-icon{
     background: white url("mail-bottun.png") center no-repeat;
+}
+.call-blue-icon{
+    background: white url("mail-bottun-blue.png") center no-repeat;
 }
 .private-icon{
     background: white url("lock.png") center no-repeat;
