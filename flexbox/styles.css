@@ -81,11 +81,32 @@
 .angle-icon{
     background: white url("angle.png") center no-repeat;
 }
+.angle-icon:hover{
+    background: white url("angle-blue.png") center no-repeat;
+}
+.angle-icon:active{
+    background: white url("angle-blue.png") center no-repeat;
+}
 .angle-blue-icon{
     background: white url("angle-blue.png") center no-repeat;
 }
+
 .about-us-icon{
     background: white url("dialog.png") center no-repeat;
+}
+.about-us-icon:hover{
+    background: white url("blue-dialog.png") center no-repeat;
+}
+.about-us-icon:active{
+    background: white url("blue-dialog.png") center no-repeat;
+}
+.big-button:hover{
+    color: #3b55ef;
+    box-shadow: 1px 1px 1px 1px #3b55ef;
+}
+.big-button:active{
+    color: #3b55ef;
+    box-shadow: 1px 1px 1px 1px #3b55ef;
 }
 .about-us-blue-icon
 {
@@ -97,15 +118,38 @@
 .call-blue-icon{
     background: white url("mail-bottun-blue.png") center no-repeat;
 }
+.call-icon:hover{
+    background: white url("mail-bottun-blue.png") center no-repeat;
+}
+.call-icon:active{
+    background: white url("mail-bottun-blue.png") center no-repeat;
+}
 .private-icon{
     background: white url("lock.png") center no-repeat;
 }
-
+.private-icon:hover{
+    background: white url("lock-blue.png") center no-repeat;
+}
+.private-icon:active{
+    background: white url("lock-blue.png") center no-repeat;
+}
 .question-icon{
     background: white url("question.png") center no-repeat;
 }
+.question-icon:hover{
+    background: white url("question-blue.png") center no-repeat;
+}
+.question-icon:active{
+    background: white url("question-blue.png") center no-repeat;
+}
 .user-icon{
     background: white url("user.png") center no-repeat;
+}
+.user-icon:hover{
+     background: white url("user-blue.png") center no-repeat;
+ }
+.user-icon:active{
+    background: white url("user-blue.png") center no-repeat;
 }
 .links {
     border: 1px solid #fff; /* For debugging */
