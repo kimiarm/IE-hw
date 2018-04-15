@@ -69,15 +69,24 @@
     outline: none;
     font-family: 'Shabnam', sans-serif;
     border: 1px solid #999999;
-    box-shadow: 2px 2px 5px 2px  #999999;
+    box-shadow: 1px 1px 1px 1px  #999999;
     border-radius: 3px;
 
+}
+.blue{
+    color: #3b55ef;
+    border: 1px solid #3b55ef;
+    box-shadow: 1px 1px 1px 1px lightblue;
 }
 .angle-icon{
     background: white url("angle.png") center no-repeat;
 }
 .about-us-icon{
     background: white url("dialog.png") center no-repeat;
+}
+.about-us-blue-icon
+{
+    background: white url("blue-dialog.png") center no-repeat;
 }
 .call-icon{
     background: white url("mail-bottun.png") center no-repeat;
