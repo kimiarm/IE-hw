@@ -201,7 +201,7 @@
 
 .search {
     border-radius: 80px;
-    background: white url(search.png) left no-repeat;
+    background: white url("../images/icons/search.png") left no-repeat;
     padding-left: 17px;
 }
 
@@ -299,11 +299,11 @@
 .search {
 
     border-radius: 80px;
-    background: white url(search.png) left no-repeat;
+    background: white url("../images/icons/search.png") left no-repeat;
 }
 
 .search:hover {
-    background: white url(search-blue.png) left no-repeat;
+    background: white url("../images/icons/search-blue.png" ) left no-repeat;
     border: 1px solid #3b55ef;
 }
 

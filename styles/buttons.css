@@ -35,7 +35,16 @@
     color: #3b55ef;
     border: 1px solid #3b55ef;
 }
-
+.sent-button:hover{
+     background-color: #3b55ef;
+     font-weight: bold;
+     color: white;
+ }
+.sent-button:active{
+    background-color: #3b55ef;
+    font-weight: bold;
+    color: white;
+}
 .register-order {
     color: white;
     background-color: #3b55ef;

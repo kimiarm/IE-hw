@@ -58,7 +58,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white url("brands.png") left ;
+    background: white url("../images/pics/brands.png") left ;
     border: 1px solid #666666;
     flex: 4;
 }

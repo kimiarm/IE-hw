@@ -94,6 +94,14 @@
     border-radius: 10px;
     background-color: #f0f2f8;
 }
+.message-box:hover{
+    border: 1px solid #3b55ef;
+    background-color: white;
+}
+.message-box:active{
+    border: 1px solid #3b55ef;
+    background-color: white;
+}
 .sent-container {
     display: inline-flex;
     justify-content: flex-end;
