@@ -2,10 +2,12 @@
     background: white url("../images/icons/angle.png") center no-repeat;
 }
 .angle-icon:hover{
-    background: white url("../images/icons/angle-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/angle-white.png") center no-repeat;
+    color: white;
 }
 .angle-icon:active{
-    background: white url("../images/icons/angle-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/angle-white.png") center no-repeat;
+    color: white;
 }
 .angle-blue-icon{
     background: white url("../images/icons/angle-blue.png") center no-repeat;
@@ -15,10 +17,12 @@
     background: white url("../images/icons/dialog.png") center no-repeat;
 }
 .about-us-icon:hover{
-    background: white url("../images/icons/blue-dialog.png") center no-repeat;
+    background: #3b55ef url("../images/icons/dialog-white.png") center no-repeat;
+    color: white;
 }
 .about-us-icon:active{
-    background: white url("../images/icons/blue-dialog.png") center no-repeat;
+    background: #3b55ef url("../images/icons/dialog-white.png") center no-repeat;
+    color: white;
 }
 .about-us-blue-icon
 {
@@ -31,37 +35,45 @@
     background: white url("../images/icons/mail-bottun-blue.png") center no-repeat;
 }
 .call-icon:hover{
-    background: white url("../images/icons/mail-bottun-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/mail-bottun-white.png") center no-repeat;
+    color: white;
 }
 .call-icon:active{
-    background: white url("../images/icons/mail-bottun-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/mail-bottun-white.png") center no-repeat;
+    color: white;
 }
 .private-icon{
     background: white url("../images/icons/lock.png") center no-repeat;
 }
 .private-icon:hover{
-    background: white url("../images/icons/lock-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/lock-white.png") center no-repeat;
+    color: white;
 }
 .private-icon:active{
-    background: white url("../images/icons/lock-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/lock-white.png") center no-repeat;
+    color: white;
 }
 .question-icon{
     background: white url("../images/icons/question.png") center no-repeat;
 }
 .question-icon:hover{
-    background: white url("../images/icons/question-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/question-white.png") center no-repeat;
+    color: white;
 }
 .question-icon:active{
-    background: white url("../images/icons/question-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/question-white.png") center no-repeat;
+    color: white;
 }
 .user-icon{
     background: white url("../images/icons/user.png") center no-repeat;
 }
 .user-icon:hover{
-    background: white url("../images/icons/user-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/user-white.png") center no-repeat;
+    color: white;
 }
 .user-icon:active{
-    background: white url("../images/icons/user-blue.png") center no-repeat;
+    background: #3b55ef url("../images/icons/user-white.png") center no-repeat;
+    color: white;
 }
 .google-icon{
     background: white url("../images/icons/google.png") center no-repeat;
