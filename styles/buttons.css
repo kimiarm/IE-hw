@@ -28,6 +28,12 @@
     width: 30%;
     height: 30px;
 }
+.do-register-button:hover{
+    background-color: darkblue;
+}
+.do-register-button:active{
+    background-color: darkblue;
+}
 
 .sent-button {
     width: 22%;

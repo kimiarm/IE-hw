@@ -36,7 +36,7 @@
     justify-content: flex-end;
 }
 .rectangle {
-    background: white url("rectangle.png") center no-repeat;
+    background: white url("../images/pics/rectangle.png") center no-repeat;
     width: 100%;
     height: 100%;
     display: flex;
